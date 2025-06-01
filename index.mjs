@@ -6,6 +6,9 @@
  * plus purge all their Conversations entries.
  */
 
+
+// From github
+
 import { DynamoDBClient, DeleteItemCommand, QueryCommand } from "@aws-sdk/client-dynamodb";
 import {
   CognitoIdentityProviderClient,
